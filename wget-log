@@ -1,0 +1,15 @@
+--2016-10-25 15:31:45--  http://-/
+Resolving - (-)... failed: Name or service not known.
+wget: unable to resolve host address '-’
+--2016-10-25 15:31:45--  http://10.0.0.3/testsmall
+Connecting to 10.0.0.3:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 74584727 (71M) [application/octet-stream]
+Saving to: './results/wgetedfile’
+
+83% [===============================>       ] 62,630,600  1.12MB/s  eta 10s    84% [===============================>       ] 62,867,648  1.12MB/s  eta 10s    84% [===============================>       ] 63,104,696  1.12MB/s  eta 10s    84% [================================>      ] 63,341,744  1.12MB/s  eta 10s    85% [================================>      ] 63,578,792  1.12MB/s  eta 10s    85% [================================>      ] 63,613,064  1.12MB/s   in 54s    
+
+2016-10-25 15:32:40 (1.12 MB/s) - Connection closed at byte 63613064. Retrying.
+
+--2016-10-25 15:32:41--  (try: 2)  http://10.0.0.3/testsmall
+Connecting to 10.0.0.3:80... failed: Network is unreachable.
